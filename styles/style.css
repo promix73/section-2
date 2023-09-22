@@ -1,0 +1,64 @@
+
+img.whoWeAre{
+  width: 630px;
+  height: 425px;
+top: 21px;
+left: 840px;
+ border-radius: 10px;
+  }
+  h1{
+font-family: Montserrat;
+font-size: 50px;
+font-weight: 700;
+line-height: 72px;
+letter-spacing: -0.015em;
+text-align: left;
+margin-top: 0;
+color:#434094
+  }
+  h2{
+    font-family: Montserrat;
+    letter-spacing: -0.015em;
+    text-align: left;
+    margin-top: 0;
+    color:#434094;
+  }
+
+div.row{
+display: flex;
+flex-direction: row;
+flex-wrap:wrap;
+width:100%;
+
+}
+div.column1{
+  margin:40px 20px 40px 20px;/** width and height**/
+
+}
+div.column2{
+  margin:40px 20px 40px 20px; /** width and height**/
+}
+div.column1, .column2{
+  display: flex;
+  flex-direction:column;
+  flex-basis: 100%;
+  flex:1;
+}
+p{
+font-family:Montserrat;
+font-size: 18px;
+}
+button{
+  border: 2px solid #434094;
+  background-color: white;
+  margin: 8px 0px 8px 0;
+  font-size: 16px;
+  cursor: pointer;
+  height: 40px;
+  width: 130px;
+  border-radius: 5px;
+}
+button:hover{
+  background-color:#434094 ;
+  color:#fff;
+}
